@@ -48,7 +48,9 @@ The script expects the CSV file to use a comma (`,`) as the separator.
 3.  Run the script from your terminal: `python LOS_Model.py`
 
 
-## Outputs
+## How to Cite
+
+If you use this code or data in your research, please cite the specific version archived on Zenodo.
 
 Running the script will:
 
@@ -59,3 +61,21 @@ Running the script will:
     *   `fig5_def_occupancy_sims_revised.jpg` (Corresponds to Fig 5D, E, F)
 4.  **Create a subdirectory** named `./simulation_results_LOS/plot_data_csv/`.
 5.  **Save the data underlying each plot panel** as separate CSV files within the `./simulation_results_LOS/plot_data_csv/` directory (e.g., `fig5a_observed_los_counts.csv`, `fig5d_surge_occupancy.csv`, etc.).
+
+##Citation:
+
+Navas-Ortega, A. C., Sánchez-Martínez, J. A., García-Flores, P., Morales-García, C., & Fabregas, R. (2025). IRCU Patient Dynamics and Outcomes in the COVID-19 Pandemic. (Version v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.15284171
+
+
+**BibTeX Entry Example:**
+
+```bibtex
+@software{NavasOrtega_2025_IRCUDynamics,
+  author       = {Navas-Ortega, Ana Carmen and Sánchez-Martínez, José Antonio and García-Flores, Paula and Morales-García, Concepción and Fabregas, Rene},
+  title        = {{IRCU Patient Dynamics and Outcomes in the COVID-19 Pandemic.}},
+  year         = {2025},
+  publisher    = {Zenodo},
+  version      = {Version v1.0.0},
+  doi          = {10.5281/zenodo.15284171},
+  url          = {https://doi.org/10.5281/zenodo.15284171}
+}
